@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BCA Student Portfolio - Web Developer specializing in WordPress, PHP, React, Python, Django, and MongoDB">
+    <meta name="keywords" content="web developer, portfolio, BCA student, WordPress, PHP, React, Python, Django, MongoDB">
+    <title>Portfolio - BCA Student & Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#journey" class="nav-link">Journey</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="creative-bg">
+            <div class="bg-shape bg-shape-1"></div>
+            <div class="bg-shape bg-shape-2"></div>
+            <div class="bg-shape bg-shape-3"></div>
+            <div class="bg-shape bg-shape-4"></div>
+        </div>
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="title-wrapper">
+                        <h1 class="home-title">
+                            <span class="title-line">Hello, I'm</span>
+                            <span class="title-name">Sk Tanish Parvez</span>
+                            <span class="title-role">Web Developer</span>
+                        </h1>
+                        <div class="title-decoration">
+                            <div class="decoration-line"></div>
+                            <div class="decoration-dot"></div>
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    <p class="home-description">
+                        A passionate BCA student with expertise in modern web technologies. 
+                        I create engaging digital experiences using WordPress, PHP, React, Python, Django, and MongoDB.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-text">View My Work</span>
+                            <span class="btn-icon">→</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span class="btn-text">Get In Touch</span>
+                            <span class="btn-icon">✉</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-visual">
+                    <div class="profile-image">
+                        <img src="./image/My phtoto.jpeg" alt="My phtoto">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Showcasing my work across different technologies</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" aria-label="Filter by All">All</button>
+                <button class="filter-btn" data-filter="wordpress" aria-label="Filter by WordPress">WordPress</button>
+                <button class="filter-btn" data-filter="php" aria-label="Filter by PHP">PHP</button>
+                <button class="filter-btn" data-filter="html-css-js" aria-label="Filter by HTML/CSS/JS">HTML/CSS/JS</button>
+            </div>
+            <div class="projects-grid">
+                <!-- PHP Project -->
+                <div class="project-card fade-in visible" data-category="php">
+                    <div class="project-image">
+                        <img src="./image/firstproject.webp" alt="firstprojectphoto">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.bengalbusinesscouncil.com/" class="project-link" target="_blank" aria-label="Visit Bengal Business Council website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" aria-label="View Bengal Business Council GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bengal Business Council</h3>
+                        <p class="project-description">Official website for Bengal Business Council - a not-for-profit organization promoting Bengali entrepreneurship and business development.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- WordPress Projects -->
+                <div class="project-card fade-in visible" data-category="wordpress">
+                    <div class="project-image">
+                        <img src="./image/fifthproject.png" alt="avishphoto">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://avishfragrance.com/" class="project-link" target="_blank" aria-label="Visit Avish Fragrance website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" aria-label="View Avish Fragrance GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Avish Fragrance</h3>
+                        <p class="project-description">Premium fragrance e-commerce website with WooCommerce integration, product catalog, and secure payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">WooCommerce</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in visible" data-category="wordpress">
+                    <div class="project-image">
+                        <img src="./image/thirdproject.png" alt="thirdproject">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://sunainaaholistichealing.in/" class="project-link" target="_blank" aria-label="Visit Sunainaa Holistic Healing website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" aria-label="View Sunainaa Holistic Healing GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sunainaa Holistic Healing</h3>
+                        <p class="project-description">Professional website for spiritual mentor and wellness coach with booking system, testimonials, and course management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Custom Theme</span>
+                            <span class="tech-tag">Booking System</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- HTML/CSS/JS Projects -->
+                <div class="project-card fade-in visible" data-category="html-css-js">
+                    <div class="project-image">
+                        <img src="./image/sixphotos.png" alt="Nundylogo">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.nundys.com/" class="project-link" target="_blank" aria-label="Visit Nundy's website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" aria-label="View Nundy's GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nundy's Website</h3>
+                        <p class="project-description">Modern business website with responsive design, interactive elements, and smooth animations built with vanilla HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in visible" data-category="html-css-js">
+                    <div class="project-image">
+                        <img src="https://placehold.co/400x200?text=AI-Generated+Weather+Dashboard" alt="AI-generated screenshot of Weather Dashboard with dynamic weather visuals">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" aria-label="Visit Weather Dashboard">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" aria-label="View Weather Dashboard GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">Interactive weather application with real-time data, location-based forecasts, and beautiful UI animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">My education, skills, and experience</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-download">
+                    <a href="#" class="btn btn-primary download-btn" aria-label="Download Resume PDF">
+                        <i class="fas fa-download"></i>
+                        Download Resume (PDF)
+                    </a>
+                </div>
+                <div class="resume-grid">
+                    <div class="resume-section-card">
+                        <h3 class="resume-card-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </h3>
+                        <div class="resume-item">
+                            <h4>Bachelor of Computer Applications (BCA)</h4>
+                            <p class="institution">Your University Name</p>
+                            <p class="duration">2021 - 2024</p>
+                            <p class="description">Specialized in web development and software engineering with focus on modern technologies.</p>
+                        </div>
+                    </div>
+                    <div class="resume-section-card">
+                        <h3 class="resume-card-title">
+                            <i class="fas fa-code"></i>
+                            Technical Skills
+                        </h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">HTML5</span>
+                                    <span class="skill-item">CSS3</span>
+                                    <span class="skill-item">JavaScript</span>
+                                    <span class="skill-item">React</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Backend</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">PHP</span>
+                                    <span class="skill-item">Python</span>
+                                    <span class="skill-item">Django</span>
+                                    <span class="skill-item">Node.js</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>CMS & Tools</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">WordPress</span>
+                                    <span class="skill-item">WooCommerce</span>
+                                    <span class="skill-item">Git</span>
+                                    <span class="skill-item">VS Code</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Database</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">MySQL</span>
+                                    <span class="skill-item">MongoDB</span>
+                                    <span class="skill-item">SQLite</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-section-card">
+                        <h3 class="resume-card-title">
+                            <i class="fas fa-briefcase"></i>
+                            Experience
+                        </h3>
+                        <div class="resume-item">
+                            <h4>Freelance Web Developer</h4>
+                            <p class="institution">Self-Employed</p>
+                            <p class="duration">2022 - Present</p>
+                            <p class="description">Developed and maintained websites for various clients using WordPress, PHP, and modern web technologies.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Web Development Intern</h4>
+                            <p class="institution">Tech Company Name</p>
+                            <p class="duration">2023 - 2024</p>
+                            <p class="description">Worked on frontend development using React and contributed to various web applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section id="journey" class="journey-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Learning Journey</h2>
+                <p class="section-subtitle">A timeline of my growth in web development technologies</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2022</h3>
+                        <h4 class="timeline-title">HTML & CSS</h4>
+                        <p class="timeline-description">Started my journey with the fundamentals of web development, mastering HTML5 for structure and CSS3 for styling responsive, visually appealing websites.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2023</h3>
+                        <h4 class="timeline-title">WordPress, Plugins & Responsive Design</h4>
+                        <p class="timeline-description">Dived into WordPress, learning to build dynamic websites with custom themes, WooCommerce, and plugins, focusing on responsive design for all devices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2024</h3>
+                        <h4 class="timeline-title">JavaScript & React</h4>
+                        <p class="timeline-description">Advanced to interactive web development with JavaScript and React, creating dynamic, component-based user interfaces with modern frameworks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2025 - Present</h3>
+                        <h4 class="timeline-title">Python, Django & MongoDB</h4>
+                        <p class="timeline-description">Currently exploring backend development with Python, building robust web applications using Django and MongoDB for scalable data management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>sktanishparvezofficial@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 6291518301</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Kolkata, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="439bce4b-29bb-4599-acad-c4bcf49f888f">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder=" " required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </span>
+                        </button>
+                    </form>
+                    <p id="form-status"></p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sk-tanish-parvez-492502304/" class="social-link" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/tanishparvezGSM" class="social-link" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/tanishparvez/" class="social-link" target="_blank" aria-label="Instagram Profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/sk.tanishparvez" class="social-link" target="_blank" aria-label="Facebook Profile">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 Tanish. All rights reserved.</p>
+                <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
